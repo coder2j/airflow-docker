@@ -19,3 +19,4 @@ docker ps
 ```
 6. Open browser and type http://0.0.0.0:800 to launch the airflow webserver
 
+![](images/screenshot_airflow_docker.png)
