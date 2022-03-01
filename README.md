@@ -31,6 +31,6 @@ docker-compose up -d
 ```bash
 docker ps
 ```
-1. Open browser and type http://0.0.0.0:800 to launch the airflow webserver
+1. Open browser and type http://0.0.0.0:8080 to launch the airflow webserver
 
 ![](images/screenshot_airflow_docker.png)
