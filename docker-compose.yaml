@@ -39,6 +39,7 @@
 version: '3'
 x-airflow-common:
   &airflow-common
+  build: .
   image: ${AIRFLOW_IMAGE_NAME:-extending_airflow:latest}
   environment:
     &airflow-common-env
