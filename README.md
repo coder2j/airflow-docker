@@ -21,6 +21,10 @@ Here are the steps to take to get airflow 2.0 running with docker on your machin
 ```bash
 mkdir ./dags ./logs ./plugins
 ```
+1. Set user permissions for Airflow to your current user
+```
+echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_GID=0" > .env
+```
 1. Install docker desktop application if you don't have docker running on your machine
 - [Download Docker Desktop Application for Mac OS](https://hub.docker.com/editions/community/docker-ce-desktop-mac)
 - [Download Docker Desktop Application for Windows](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
